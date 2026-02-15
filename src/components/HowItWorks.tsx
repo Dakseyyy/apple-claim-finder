@@ -4,17 +4,17 @@ const steps = [
   {
     icon: Search,
     title: "Search",
-    description: "Enter your name to search government databases across all 50 states.",
+    description: "Enter your details to search all government benefit programs across all 50 states.",
   },
   {
     icon: FileCheck,
     title: "Verify",
-    description: "Review your matches and verify your identity securely.",
+    description: "Review your matches and see what you're eligible for.",
   },
   {
     icon: Banknote,
     title: "Claim",
-    description: "Submit your claim and receive your money—typically within 8-12 weeks.",
+    description: "Submit your information and get connected with your benefits.",
   },
 ];
 

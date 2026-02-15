@@ -20,14 +20,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="text-xl font-semibold tracking-tight">ClaimFinder</div>
-          <Button variant="outline" size="sm" onClick={scrollToQuiz}>
-            Check Eligibility
-          </Button>
-        </div>
-      </nav>
+
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-16">
@@ -35,16 +28,15 @@ const Index = () => {
           <p className="text-muted-foreground uppercase tracking-widest text-sm mb-6 animate-fade-up opacity-0" style={{ animationDelay: '0ms', animationFillMode: 'forwards' }}>
             Billions in unclaimed assets waiting
           </p>
-          
+
           <h1 className="text-display-sm md:text-display mb-6 animate-fade-up opacity-0" style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}>
             Find your
             <br />
             unclaimed money.
           </h1>
-          
+
           <p className="text-body-lg text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up opacity-0" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
-            Every year, billions of dollars go unclaimed. Old bank accounts, forgotten 
-            insurance policies, uncashed checks—they could be yours.
+           Every year, billions of dollars go unclaimed. That job you left years ago, the apartment deposit you never got back, that class action lawsuit you ignored could be yours.
           </p>
 
           <div className="animate-fade-up opacity-0" style={{ animationDelay: '300ms', animationFillMode: 'forwards' }}>
@@ -64,10 +56,10 @@ const Index = () => {
       {/* Stats Section */}
       <section className="py-20 px-6 border-y border-border/50">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <StatCard value="$2.7B+" label="Recovered" delay={0} />
-            <StatCard value="4.8M+" label="People Helped" delay={100} />
-            <StatCard value="$1,847" label="Avg. Claim" delay={200} />
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
+
+            <StatCard value="4.8M+" label="People Helped" delay={0} />
+
             <StatCard value="98%" label="Success Rate" delay={300} />
           </div>
         </div>

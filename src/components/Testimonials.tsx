@@ -5,13 +5,13 @@ const testimonials = [
     name: "Sarah M.",
     location: "California",
     amount: "$3,247",
-    text: "I had no idea I had unclaimed money. The process was incredibly simple and I got my funds within 6 weeks.",
+    text: "I had no idea I was eligible for so many benefits. The process was incredibly simple and I started receiving assistance within 6 weeks.",
   },
   {
     name: "Michael R.",
     location: "Texas",
     amount: "$892",
-    text: "Found money from an old insurance policy I completely forgot about. This service is legitimate and works.",
+    text: "Found food benefits I didn't know I was eligible for.",
   },
   {
     name: "Jennifer L.",
